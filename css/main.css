@@ -55,3 +55,29 @@ blockquote cite {
 h2 + ol {
   list-style-type: lower-greek;
 }
+
+h2 + p {
+  font-style: italic;
+}
+
+dt {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+ul li {
+  font-size: 0.8rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #8f2440;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #3f1622;
+}
