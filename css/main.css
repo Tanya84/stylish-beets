@@ -1,6 +1,6 @@
 html {
   background-color: #c9b5ab;
-  font-family: "PT serif", serif;
+  font-family: "PT Serif", serif;
   line-height: 1.5;
 }
 
@@ -13,13 +13,21 @@ h2 {
 }
 
 nav ol {
-list-style-type: none;
+  list-style-type: none;
+}
+
+a {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #3f1622;
 }
 
 nav a {
-  color: #8f2440;
   font-family: "PT Sans", sans-serif;
-  text-decoration: none;
   font-weight: bold;
 }
 
@@ -39,7 +47,7 @@ figure + p {
   font-size: 1.25rem;
 }
 
-blockquote p {
+.quote {
   font-style: italic;
   font-size: 1.5rem;
 }
@@ -70,14 +78,4 @@ ul {
 
 ul li {
   font-size: 0.8rem;
-}
-
-footer a {
-  text-decoration: none;
-  color: #8f2440;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: #3f1622;
 }
